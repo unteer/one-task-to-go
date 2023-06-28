@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "one-task-to-go"
+version = "0.1.0"
+description = ""
+authors = ["J Mac <jmmcl2@unteer.net>"]
+readme = "README.md"
+packages = [{include = ""}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rumps = "^0.4.0"
+poetry-publish = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
