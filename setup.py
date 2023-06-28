@@ -18,17 +18,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     app=APP,
-    name="one-task-to-go-unteer", # Replace with your own username
+    name="1T2G", # Replace with your own username
     data_files=DATA_FILES,
-    version="0.0.1",
-    author="Jonathan McLean",
+    version="0.1.0",
+    author="J Mac",
     author_email="jmmcl2@unteer.net",
     description="A little focused To Do tracker for the Mac Menubar.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="",
     project_urls={
-        "Bug Tracker": "",
+        "Bug Tracker": "https://github.com/unteer/one-task-to-go/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
